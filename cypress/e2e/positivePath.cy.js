@@ -9,7 +9,7 @@ describe('Check form positive path', () => {
             cy.formFilling(
                 validUserData.userFirst.name,
                 validUserData.userFirst.email,
-                validUserData.userSecond.service,
+                validUserData.userFirst.service,
                 validUserData.userFirst.accountPurpose,
                 validUserData.userFirst.withdrawOptions,
                 validUserData.userFirst.message,                
